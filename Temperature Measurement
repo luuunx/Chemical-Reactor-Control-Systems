@@ -14,7 +14,7 @@ void setup() {
 void loop() {
   ;
 
-  Serial.print(termopar.readCelsius()); Serial.print(" ");
+  Serial.println(termopar.readCelsius());
 
   delay(1000);
 }
